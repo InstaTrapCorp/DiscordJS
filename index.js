@@ -22,8 +22,15 @@ client.on('message', msg => {
         msg.reply('Are ya winning, son?');
     } else if (msg.content === prefix+'thicc') {
         msg.reply('Send noods');
-    } else if (msg.content === prefix+'hotel?'){
+    } else if (msg.content === prefix+'hotel?') {
         msg.reply('Trivago');
+    } else if (msg.content === 'fnc') {
+        msg.reply('Try harder next time');
+    } else if (msg.content === prefix+'braindead') {
+        const num = Math.random() * 100;
+        msg.reply('The chances of not having brain damage is ' + num + '%');
+    } else if (msg.content === prefix+'fuck') {
+        msg.reply('asam fuck');
     }
 });
 
