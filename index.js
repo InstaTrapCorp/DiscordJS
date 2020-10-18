@@ -33,5 +33,3 @@ client.on('message', msg => {
         msg.reply('asam fuck');
     }
 });
-
-client.login('NzY1MjczNTIxMDM0MzYyOTIw.X4SagQ.DtCqKlgsjeYtwfIEU5PkhYWbCVk');
